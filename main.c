@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-int main () {
-	printf("hello git\n");
-	return 0;
+void hello() {
+    printf("안녕하세요!\n");
+}
+
+int main() {
+    printf("hello git\n");
+    hello();
+    return 0;
 }
